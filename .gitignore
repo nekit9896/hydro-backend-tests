@@ -1,0 +1,8 @@
+.idea/
+__pycache__
+.mimocode/
+.pytest_cache/
+.clinerules
+
+# Логи прогонов не коммитим: содержат адреса стендов, connectionId и вывод pytest
+*.log
