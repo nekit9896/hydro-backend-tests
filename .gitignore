@@ -2,7 +2,10 @@
 __pycache__
 .mimocode/
 .pytest_cache/
-.clinerules
+# .clinerules версионируется в git (единые правила для всех)
+
+# Локальные секреты стенда (реальные значения — из GitLab CI variables)
+.env
 
 # Логи прогонов не коммитим: содержат адреса стендов, connectionId и вывод pytest
 *.log
